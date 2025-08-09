@@ -60,8 +60,8 @@ Para realizar o login e testar os endpoints protegidos, utilize as seguintes cre
   - `password`: 123456
 
 - **Usuário 2:**
-  - `username`: funcionario2
-  - `password`: password2
+  - `username`: funcionario1
+  - `password`: password1
 
 Após o login, você receberá um `token` (que é o ID do usuário). Este token deve ser usado no cabeçalho `Authorization` como um `Bearer Token` para acessar as rotas protegidas.
 
